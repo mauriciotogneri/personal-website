@@ -1,0 +1,354 @@
+html
+{
+    font-size: 100%;
+}
+
+body
+{
+	margin:    0;
+	padding:   0;
+    font-size: 100%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    border: 0;
+}
+
+.autosize-image
+{
+    width: 100%;
+}
+
+.main-container
+{
+    padding-left:   100px;
+    padding-right:  100px;
+    padding-top:    50px;
+    padding-bottom: 50px;
+}
+
+.section-header
+{
+    margin-bottom: 20px;
+}
+
+.section-title
+{
+    color:       #0073A0;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.3rem;
+    margin-left: 15px;
+}
+
+.section-icon
+{
+    color:     #777777;
+    font-size: 1.3rem;
+}
+
+.section-content
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+    text-align:  justify;
+    padding:     0px;
+}
+
+.section-separator
+{
+    display:    block;
+    height:     0px;
+    border:     0;
+    margin:     30px;
+    padding:    0;
+}
+
+.section-separator-small
+{
+    display:       block;
+    height:        1px;
+    border:        0;
+    border-top:    1px solid #EEEEEE;
+    margin-top:    50px;
+    margin-bottom: 30px;
+    margin-left:   5%;
+    margin-right:  5%;
+    padding:       0;
+}
+
+.table th, .table td
+{
+    border-top:   none !important;
+    margin-left:  0px;
+    padding-left: 0px;
+}
+
+.table
+{
+    width:  auto !important;
+    margin: 0px;
+}
+
+.card
+{
+    box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.2);
+    width:      100%;
+}
+
+.container
+{
+    width:   100%;
+    padding: 30px;
+}
+
+/* ============= HEADER ============= */
+
+.header
+{
+   position:    absolute;
+   top:         20px;
+   left:        40px;
+   font-family: 'Raleway', 'sans-serif' 
+}
+
+.title
+{
+    color:     #F0F0F0;
+    font-size: 60px;
+}
+
+.subtitle
+{
+    color:       #55B336;
+    font-size:   25px;
+    font-weight: bold;
+}
+
+.header-small
+{
+   position:    absolute;
+   top:         10px;
+   left:        20px;
+   font-family: 'Raleway', 'sans-serif' 
+}
+
+.title-small
+{
+    color:     #F0F0F0;
+    font-size: 35px;
+}
+
+.subtitle-small
+{
+    color:       #55B336;
+    font-size:   20px;
+    font-weight: bold;
+}
+
+/* ============= SKILLS ============= */
+
+.skill-name
+{
+    color:        #666666;
+    font-family:  'Open Sans', 'sans-serif';
+    font-size:    1.1rem;
+}
+
+.star-first
+{
+    color:       #EBC563;
+    font-size:   1.5rem;
+    margin-left: 40px;
+}
+
+.star-full
+{
+    color:     #EBC563;
+    font-size: 1.5rem;
+}
+
+.star-empty
+{
+    color:     #AAAAAA;
+    font-size: 1.5rem;
+}
+
+/* ============= LANGUAGE ============= */
+
+.language-name
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+}
+
+.language-level
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+    font-style:  italic;
+}
+
+.flag-icon
+{
+    width:        40px;
+    margin-right: 10px;
+}
+
+/* ============= EXPERIENCE ============= */
+
+.experience-year
+{
+    color:       #888888;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1rem;
+}
+
+.experience-company
+{
+    color:           #0073A0;
+    font-family:     'Open Sans', 'sans-serif';
+    font-size:       1.1rem;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.experience-company:hover
+{
+    color:           #009FDE;
+    font-family:     'Open Sans', 'sans-serif';
+    font-size:       1.1rem;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.experience-position
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+    font-weight: bold;
+    font-style:  italic;
+}
+
+.experience-description
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+    text-align:  justify;
+    margin-top:  5px;
+}
+
+/* ============= PORTFOLIO ============= */
+
+.portfolio-title
+{
+    color:           #0073A0;
+    font-family:     'Open Sans', 'sans-serif';
+    font-size:       1.1rem;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.portfolio-title:hover
+{
+    color:           #009FDE;
+    font-family:     'Open Sans', 'sans-serif';
+    font-size:       1.1rem;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.portfolio-description
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+    text-align:  justify;
+    overflow:    hidden;
+    margin-top:  20px;
+}
+
+.portfolio-thumbnail
+{
+    max-height:    120px;
+    max-width:     120px;
+    float:         left;
+    margin-right:  20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-resources
+{
+    margin-top: 20px;
+}
+
+.portfolio-play-badge
+{
+    height: 40px;
+    padding-right: 20px;
+}
+
+.portfolio-github-badge
+{
+    height: 40px;
+}
+
+/* ============= EDUCATION ============= */
+
+.education-year
+{
+    color:       #888888;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1rem;
+}
+
+.education-title
+{
+    color:           #0073A0;
+    font-family:     'Open Sans', 'sans-serif';
+    font-size:       1.1rem;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.education-title:hover
+{
+    color:           #009FDE;
+    font-family:     'Open Sans', 'sans-serif';
+    font-size:       1.1rem;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.education-description
+{
+    color:       #666666;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size:   1.1rem;
+    font-style:  italic;
+}
+
+/* ============= CONTACT ============= */
+
+.contact-icon
+{
+    color:        #444444;
+    font-size:    3.5em;
+    margin-left:  0.2em;
+    margin-right: 0.2em;
+}
+
+.contact-icon:hover
+{
+    color: #999999;
+}
